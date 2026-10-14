@@ -1,6 +1,6 @@
 # E5：批量、学习接口与数据
 
-[Sim Atlas 学习首页](https://github.com/huangkiki/sim-atlas) · [课程](curriculum.md) · [E2 控制](control-robotics-tasks.md) · [E4 观测](sensors-rendering.md)
+[Sim Learning 学习首页](https://github.com/huangkiki/sim-learning) · [课程](curriculum.md) · [E2 控制](control-robotics-tasks.md) · [E4 观测](sensors-rendering.md)
 
 本章回答三个实际问题：如何让许多 Newton world 共用设备数组而不混淆；一个 episode 结束后究竟要重置什么；怎样把状态变成有时序、可追溯的数据。先修是 E1 的 q/qd 与所有权、E2 的控制消费者、E4 的观测 producer。本章覆盖 A8/A9 和 B6 的批量、内存、JIT/graph 与数据扩展入口；专用 solver 扩展及完整可微链留给 E6。
 

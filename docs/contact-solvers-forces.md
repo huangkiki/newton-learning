@@ -2,7 +2,7 @@
 
 本章把“检测到接触”一直追到“这个数究竟是什么力”。先修 [E1：模型、状态与时间](modeling-state-time.md) 和 [E2：控制与机器人](control-robotics-tasks.md)；完成 A4、B1–B5 的核心接触/数值专题，并补足 B0 的动力学装配入口。重点是刚体 XPBD，同时沿 SemiImplicit、Featherstone、MuJoCo、VBD、Kamino 的实际分支比较。软体/粒子在本章说明接口与适用边界，专用材料、耦合和扩展留 E6。
 
-阅读对象为 Newton **1.6.1**，固定提交 `713fecdc41caf0c9d726f5c016939f36e66e3dff`。这是源码课程，**没有 import、step、仿真或运行本章示例**。公式的算例是纸面推导，不是测量。正文不复原 DexLab 历史参数，不把不同 solver/版本拼成排名。返回 [Sim Atlas 学习首页](https://github.com/huangkiki/sim-atlas)。
+阅读对象为 Newton **1.6.1**，固定提交 `713fecdc41caf0c9d726f5c016939f36e66e3dff`。这是源码课程，**没有 import、step、仿真或运行本章示例**。公式的算例是纸面推导，不是测量。正文不复原 DexLab 历史参数，不把不同 solver/版本拼成排名。返回 [Sim Learning 学习首页](https://github.com/huangkiki/sim-learning)。
 
 ## 1. 三个层次和一个离散动力学问题
 

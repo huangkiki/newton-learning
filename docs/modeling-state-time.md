@@ -258,4 +258,4 @@ XPBD 会在这个预测后进行约束修正，并进一步更新速度；**不�
 
 [验证记录](e1-validation.md)列出源码身份、链接锚点、原创 Python 文件和 Markdown 片段的语法检查。静态审查涵盖 A1/A2 的建模/资产、状态/时间契约，B0/B4 只交付本章声明的基础子集；未把任何物理或性能性质标成运行验收。
 
-接下来 E2 从这些状态与布局进入 `Control`、原生驱动、机器人 FK/目标 IK 和任务时序；E3 延续空间量及积分基础，展开接触/约束/求解器/力观测。实验案例最终复用 [DexLab](https://github.com/huangkiki/Dexlab)，总入口见 [Sim Atlas](https://github.com/huangkiki/sim-atlas)。
+接下来 E2 从这些状态与布局进入 `Control`、原生驱动、机器人 FK/目标 IK 和任务时序；E3 延续空间量及积分基础，展开接触/约束/求解器/力观测。实验案例最终复用 [DexLab](https://github.com/huangkiki/Dexlab)，总入口见 [Sim Learning](https://github.com/huangkiki/sim-learning)。

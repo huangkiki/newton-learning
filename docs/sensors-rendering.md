@@ -2,7 +2,7 @@
 
 本章完成 A6 的原生接口与源码专题。先修 [E1：模型、状态与时间](modeling-state-time.md)；涉及力时衔接 [E3：接触与力观测](contact-solvers-forces.md)。从“这个数组表示什么、什么时候更新”出发，贯通相对位姿、IMU、接触观测、几何射线、相机图像与显示后端。
 
-阅读版本为 Newton **1.6.1**，官方固定提交 `713fecdc41caf0c9d726f5c016939f36e66e3dff`。这里没有导入原生引擎、打开窗口、执行渲染或仿真。示例仅 AST 验证；源码支持不代表本机驱动、窗口系统或可选宿主包已经验收。返回 [Sim Atlas 学习首页](https://github.com/huangkiki/sim-atlas)。
+阅读版本为 Newton **1.6.1**，官方固定提交 `713fecdc41caf0c9d726f5c016939f36e66e3dff`。这里没有导入原生引擎、打开窗口、执行渲染或仿真。示例仅 AST 验证；源码支持不代表本机驱动、窗口系统或可选宿主包已经验收。返回 [Sim Learning 学习首页](https://github.com/huangkiki/sim-learning)。
 
 ## 1. 观测、查询和显示分别做什么
 

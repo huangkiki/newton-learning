@@ -324,4 +324,4 @@ Newton 的物理 `solver.step`、机器人 `controller.step`、`actuator.step` �
 
 ## 13. 交付与后续边界
 
-[验证记录](e2-validation.md)覆盖来源身份、链接锚点、脚本/Markdown 语法和人工语义审查。A3/A5/A7 的概念与原生接口专题已展开；E3 的接触/求解与力观测、E4 的传感/渲染、E5 的批量/学习仍有独立任务，未被本章示例替代。下一项优先 E3，解释任务观测与 solver 能力表背后的约束/接触计算，实验最终复用 [DexLab](https://github.com/huangkiki/Dexlab)。系列导航见 [Sim Atlas](https://github.com/huangkiki/sim-atlas)。
+[验证记录](e2-validation.md)覆盖来源身份、链接锚点、脚本/Markdown 语法和人工语义审查。A3/A5/A7 的概念与原生接口专题已展开；E3 的接触/求解与力观测、E4 的传感/渲染、E5 的批量/学习仍有独立任务，未被本章示例替代。下一项优先 E3，解释任务观测与 solver 能力表背后的约束/接触计算，实验最终复用 [DexLab](https://github.com/huangkiki/Dexlab)。系列导航见 [Sim Learning](https://github.com/huangkiki/sim-learning)。

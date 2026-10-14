@@ -1,12 +1,14 @@
 # Newton Physics 两条学习路线
 
+从 DexLab 配置表开始的读者，先读 [solver 标签解读](solver-reading-guide.md)，再按每个条目跳转 E3/E6。它覆盖已登记术语并提供诊断练习，属于源码/静态教学入口；不替代 E7 全课审校或原生运行。共同先修见 [Physics-Based Simulation 学习主线](https://github.com/huangkiki/sim-learning/blob/main/docs/physics-based-simulation.md)。
+
 [首篇导读](guide.md)已经建立对象关系和核心入口；[E1 专题](modeling-state-time.md)已展开建模与状态基础；[E2 专题](control-robotics-tasks.md)已展开控制、机器人和任务接口；[E3 专题](contact-solvers-forces.md)已展开接触、求解器与力观测；[E4 专题](sensors-rendering.md)已展开传感器、几何查询与渲染显示；[E5 专题](batch-learning-data.md)已展开批量、学习接口与数据；[E6 专题](extensions-boundaries.md)已展开特色 solver、耦合、可微和完整源码追踪；A0 与全课审校仍待 E7。[源码地图](source-map.md)提供固定提交入口。
 
 应用路线无需先学求解器源码；原理路线建议先理解 A0–A4，并具备线性代数和基础动力学知识。两条路线都完整规划，当前以讲解、源码与最小 API 片段为交付物。
 
 | 单元 | 主题 | 必须讲清的内容 | 状态 |
 |---|---|---|---|
-| A0 | 安装与对象地图 | 支持环境、包/核心/宿主身份、构建入口、核心对象及生命周期 | 专题待开发 |
+| A0 | 安装与对象地图 | 支持环境、包/核心/宿主身份、构建入口、核心对象及生命周期 | E7 暂停待办 |
 | A1 | 模型、坐标与资产 | 单位、坐标、姿态、惯量、碰撞/视觉、导入器、资产许可 | [E1 已交付](modeling-state-time.md)（源码/静态） |
 | A2 | 状态与时间 | 配置/速度维度、时间步/子步、reset、快照、所有权、采样阶段 | [E1 已交付](modeling-state-time.md)（源码/静态） |
 | A3 | 驱动与控制 | 状态设置与控制命令、驱动器、饱和、PD、回调与控制频率 | [E2 已交付](control-robotics-tasks.md)（源码/静态） |

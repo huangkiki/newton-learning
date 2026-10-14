@@ -1,6 +1,6 @@
 # E6：特色求解、可微路径与原生扩展
 
-[Sim Atlas 学习首页](https://github.com/huangkiki/sim-atlas) · [课程](curriculum.md) · [E3 接触/求解](contact-solvers-forces.md) · [E5 批量/数据](batch-learning-data.md)
+[Sim Learning 学习首页](https://github.com/huangkiki/sim-learning) · [课程](curriculum.md) · [E3 接触/求解](contact-solvers-forces.md) · [E5 批量/数据](batch-learning-data.md)
 
 Newton 的共同数据结构让多个算法共享场景描述，但材料、约束、历史状态和导数仍由具体实现决定。本章沿原生接口解释如何添加计算、选择变形体算法、组合 solver，以及判断一条梯度是否完整。最后将建模→控制→接触→求解→观测串成 B7 的源码阅读路线。
 

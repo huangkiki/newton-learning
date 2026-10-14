@@ -1,14 +1,16 @@
-# Newton Physics Atlas
+# Newton Physics Learning
 
 **理解 Newton Physics 的建模、控制、物理机制与源码实现。**
 
-[English](README.en.md) · [Sim Atlas 系列首页](https://github.com/huangkiki/sim-atlas) · [入门导读](docs/guide.md) · [完整课程路线](docs/curriculum.md) · [源码地图](docs/source-map.md) · [版本](docs/versions.md) · [开发任务](docs/roadmap.md) · [六仓总看板](https://github.com/users/huangkiki/projects/2)
+[English](README.en.md) · [Sim Learning 系列首页](https://github.com/huangkiki/sim-learning) · [入门导读](docs/guide.md) · [完整课程路线](docs/curriculum.md) · [源码地图](docs/source-map.md) · [版本](docs/versions.md) · [开发任务](docs/roadmap.md) · [六仓总看板](https://github.com/users/huangkiki/projects/2)
 
-这是 **[Sim Atlas · 仿真图谱](https://github.com/huangkiki/sim-atlas)** 的独立社区学习仓库，重点覆盖 ModelBuilder/Model/State/Control/Contacts、Warp、solver 支持矩阵和多 world。
+这是 **[Sim Learning · 仿真学习](https://github.com/huangkiki/sim-learning)** 的独立社区学习仓库，重点覆盖 ModelBuilder/Model/State/Control/Contacts、Warp、solver 支持矩阵和多 world。
 
 提供两条完整路线：**A 应用路线**从对象与建模走向控制、机器人、传感器、学习接口与数据；**B 原理与源码路线**解释动力学、接触模型、求解器、积分、观测及扩展。现已提供首篇导读、固定版本源码地图，以及 [E1：模型、坐标、状态与时间](docs/modeling-state-time.md)、[E2：控制、机器人与任务接口](docs/control-robotics-tasks.md)、[E3：接触、求解器与力观测](docs/contact-solvers-forces.md)、[E4：传感器、渲染与可视化](docs/sensors-rendering.md)、[E5：批量、学习接口与数据](docs/batch-learning-data.md)、[E6：特色求解、可微路径与原生扩展](docs/extensions-boundaries.md)。完整课程仍在开发；章节交付与运行验收分开记录。
 
 ## 从这里开始
+
+如果是从 DexLab 配置表过来，先读[Newton Physics solver 标签解读](docs/solver-reading-guide.md)：分清 Featherstone/XPBD/VBD/Kamino 等实现、DVI/PADMM、Euler 与 100 sweeps，再进入 E3/E6 的原生源码。建议先完成总仓的 [Physics-Based Simulation 先修主线](https://github.com/huangkiki/sim-learning/blob/main/docs/physics-based-simulation.md)。
 
 1. 阅读[导读](docs/guide.md)，建立对象与调用关系。
 2. 阅读 [E1 专题](docs/modeling-state-time.md)：从原生建模、资产与惯量，走到状态维度、双缓冲、采样和重置；配有 [API 例子](examples/e1_model_state.py)和[静态验收记录](docs/e1-validation.md)。
@@ -22,8 +24,10 @@
 
 当前先完成引擎知识体系与源码课程。最小 API 片段服务于理解，运行状态逐项注明；本轮没有新增仿真实验、训练、基准或独立评分器。后续实验复用 [DexLab](https://github.com/huangkiki/Dexlab) 的版本、配置和工况记录。
 
+本次 Learning 改名与配置解读不恢复 E7；完整安装、全路线审校与原生运行仍是独立暂停待办。[迁移与静态检查范围](docs/learning-migration.md)保留了历史证据例外。
+
 ## 维护与来源
 
-每章保留原生 API、版本化来源、易错点和阅读练习。各 Atlas 仓库独立，不需要安装其他 Atlas 或 DexLab。教程进度和 DexLab 实验证据覆盖分别记录，不据此给引擎排名。
+每章保留原生 API、版本化来源、易错点和阅读练习。各 Learning 仓库独立，不需要安装其他 Learning 或 DexLab。教程进度和 DexLab 实验证据覆盖分别记录，不据此给引擎排名。
 
 [官方源码基线](https://github.com/newton-physics/newton/tree/713fecdc41caf0c9d726f5c016939f36e66e3dff) · [贡献](CONTRIBUTING.md) · [来源与许可](THIRD_PARTY.md)
